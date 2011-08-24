@@ -6,6 +6,7 @@ ServiceTypes=Plasma/Applet
 Icon=chronometer
 X-Plasma-API=ruby-script
 X-Plasma-MainScript=code/main.rb
+X-Plasma-DefaultSize=240,320
 X-KDE-PluginInfo-Author=Juhamatti Niemelä
 X-KDE-PluginInfo-Email=iiska@iki.fi
 X-KDE-PluginInfo-Name=uniresta-plasmoid

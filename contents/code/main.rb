@@ -9,13 +9,12 @@ module UnirestaPlasmoid
 
     def init
       self.has_configuration_interface = false
-      resize 125, 125
       self.aspect_ratio_mode = Plasma::Square
     end
 
     def paintInterface(painter, option, rect)
       painter.save
-      painter.pen = Qt::Color.new Qt::white
+      painter.pen = Qt::Color.new Qt::black
       painter.draw_text rect, Qt::AlignVCenter | Qt::AlignHCenter, "Hello Ruby!"
       painter.restore
     end
