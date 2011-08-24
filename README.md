@@ -3,4 +3,4 @@ restaurants and display them on your desktop.
 
 == Dependencies
 
-# yum install korundum plasma-scriptengine-ruby
+# yum install korundum plasma-scriptengine-ruby rubygem-nokogiri
